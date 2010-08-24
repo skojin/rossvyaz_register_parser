@@ -1,0 +1,19 @@
+Парсер Ресестра Россвязи
+=====================
+
+  Парсер для "Выписки из реестра Российской системы и плана нумерации - Федеральное агентство связи (Россвязь)"
+  http://www.rossvyaz.ru/activity/num_resurs/registerNum/
+  
+  Для OpenGovData.ru
+  http://ivan.begtin.name/2010/08/24/opendataidea/
+
+Зависимости
+=====================
+  gem mechanize тестировалось на версии mechanize-1.0.0
+
+Использование
+=====================
+  Запустить ruby fetch_and_parse.rb результат будет записан в файл num_resurs.csv в кодировке UTF8 или windows-1251 в зависимости от платформы
+
+
+Copyright (c) 2010 Sergey Kojin, released under the MIT license
